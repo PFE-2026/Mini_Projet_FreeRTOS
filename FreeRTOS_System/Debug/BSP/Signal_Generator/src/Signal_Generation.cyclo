@@ -1,0 +1,7 @@
+../BSP/Signal_Generator/src/Signal_Generation.c:13:9:signal_generator_set_frequncy	1
+../BSP/Signal_Generator/src/Signal_Generation.c:25:6:Set_Frequncy	1
+../BSP/Signal_Generator/src/Signal_Generation.c:35:6:Set_Duty	1
+../BSP/Signal_Generator/src/Signal_Generation.c:43:9:signal_generator_start	1
+../BSP/Signal_Generator/src/Signal_Generation.c:49:9:signal_generator_stop	1
+../BSP/Signal_Generator/src/Signal_Generation.c:55:6:start_pwm	1
+../BSP/Signal_Generator/src/Signal_Generation.c:60:6:stop_pwm	1
