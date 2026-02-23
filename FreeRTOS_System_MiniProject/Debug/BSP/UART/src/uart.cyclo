@@ -2,6 +2,5 @@
 ../BSP/UART/src/uart.c:27:6:HAL_UART_MspInit	2
 ../BSP/UART/src/uart.c:60:6:HAL_UART_MspDeInit	2
 ../BSP/UART/src/uart.c:84:6:HAL_UART_RxCpltCallback	12
-../BSP/UART/src/uart.c:169:6:command_control	9
-../BSP/UART/src/uart.c:232:10:Calculate_Frame_Checksum	2
-../BSP/UART/src/uart.c:270:6:HAL_UART_ErrorCallback	1
+../BSP/UART/src/uart.c:170:10:Calculate_Frame_Checksum	2
+../BSP/UART/src/uart.c:185:6:HAL_UART_ErrorCallback	1

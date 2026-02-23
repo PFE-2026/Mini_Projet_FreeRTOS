@@ -19,6 +19,7 @@ RM := rm -rf
 -include BSP/Signal_Measure/src/subdir.mk
 -include BSP/Signal_Generator/src/subdir.mk
 -include BSP/Led\ Control/src/subdir.mk
+-include App/src/subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)

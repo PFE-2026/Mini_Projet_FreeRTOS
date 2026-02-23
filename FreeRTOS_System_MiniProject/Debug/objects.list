@@ -1,3 +1,4 @@
+"./App/src/tasks.o"
 "./BSP/Led Control/src/led_control.o"
 "./BSP/Signal_Generator/src/Signal_Generation.o"
 "./BSP/Signal_Measure/src/Signal_Measurement.o"

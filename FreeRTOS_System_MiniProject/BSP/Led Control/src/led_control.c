@@ -47,35 +47,10 @@ void GPIO_Init(void)
 	/* USER CODE END MX_GPIO_Init_2 */
 }
 
-void led_control(void *argument)
-{
-	for(;;)
-	{
-		signal_measure_t measure;
-		xQueueReceive(q_led_control, &measure, portMAX_DELAY);
-		if((measure.Frequency > 0 ) &&(measure.Frequency <= 10000))
-		{
-			HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_SET);
-			HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14, GPIO_PIN_RESET);
 
-
-		}
-		else if (measure.Frequency > 10000)
-		{
-			HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14, GPIO_PIN_SET);
-			HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, GPIO_PIN_RESET);
-		}
-		else
-		{
-			HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12|GPIO_PIN_14, GPIO_PIN_RESET);
-
-		}
-	}
-}
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
 	uart_frame_t cmd ;
-	// Command cmd;
 	cmd.cmd= START ;
 	xQueueSendFromISR(q_command_choice ,&cmd , NULL);
 

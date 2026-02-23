@@ -22,6 +22,7 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+App/src \
 BSP/Led\ Control/src \
 BSP/Signal_Generator/src \
 BSP/Signal_Measure/src \
