@@ -1,0 +1,8 @@
+../BSP/Signal_Generator/src/Signal_Generation.c:12:9:signal_generator_init	5
+../BSP/Signal_Generator/src/Signal_Generation.c:67:6:HAL_TIM_MspPostInit	2
+../BSP/Signal_Generator/src/Signal_Generation.c:93:6:HAL_TIM_PWM_MspInit	2
+../BSP/Signal_Generator/src/Signal_Generation.c:109:6:HAL_TIM_PWM_MspDeInit	2
+../BSP/Signal_Generator/src/Signal_Generation.c:124:9:signal_generator_set_frequncy	1
+../BSP/Signal_Generator/src/Signal_Generation.c:135:9:signal_generator_set_duty_cycle	1
+../BSP/Signal_Generator/src/Signal_Generation.c:145:9:signal_generator_start	1
+../BSP/Signal_Generator/src/Signal_Generation.c:152:9:signal_generator_stop	1
